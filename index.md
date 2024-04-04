@@ -7,8 +7,8 @@ title: "My Website"
 # Click on About me to see my previous projects, experience and education!
 
 
-![This is a picture of My girlfriend and Me!](pic.jpg)
 
-<p style="text-align:center;">This is a picture of My girlfriend and Me!</p>
-
-
+<div style="text-align:center;">
+    ![This is a picture of My girlfriend and Me!](pic.jpg)
+    <p>This is a picture of My girlfriend and Me!</p>
+</div>
