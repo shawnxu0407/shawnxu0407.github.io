@@ -9,4 +9,6 @@ title: "My Website"
 
 ![This is a picture of My girlfriend and Me!](pic.jpg)
 
+<p style="text-align:center;">This is a picture of My girlfriend and Me!</p>
+
 
