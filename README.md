@@ -26,3 +26,7 @@ I am researching in **Graph neural network** for medical AI
 I had experience in **Deep learning** in classification for Images and Texts with fine tunning LLM
 
 
+## Work
+I worked for Institut Pasteur remotely for Image Processing from May, 2023 to August, 2023
+
+
