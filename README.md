@@ -10,6 +10,8 @@ I am currently a graduate student in **Applied Mathematics** of **University of 
 
 ## Work
 I am currently working for Environment and Climate Change Canada starting at Sept, 2024 as a machine learning intern
+
+
 I worked for Institut Pasteur remotely for Image Processing from May, 2023 to August, 2023
 
 
