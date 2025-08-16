@@ -50,10 +50,14 @@ Since we have no access to the internal control for Clash Royale so that no dire
 
 3. The key of **reward (r)** is just the scalar for rewards received for the curret frame. We use cnocr to detect the relative HP detection for each queen's and king's tower. If we deduct the opposite tower's HP, we have positive reward, otherwise, we have the negative rewards.
 
-4. Finally, the dataloading process will be introduced. Recall we have (s, a, r) pair for **each timestep t**, the sequential construction of pair is necessary for transformer decoder model.
-   - Sequential Dataloader: Each data point is a sequence of length n (ex. 30 here), We have proceeding 29 pairs inputs of (s_i, a_i, r_i) with the target pair (s_{30}, a_{30}, r_{30}). Briefly speaking, we use the model to address the first 29 pairs of input and output the predicted pair (\hat{s}_{30}, \hat{a}_{30}, \hat{r}_{30}) and minimize the distance between target and prediced pair.
 
-5.
+4. Finally, the dataloading process will be introduced. Recall we have (s, a, r) pair for **each timestep t**, the sequential construction of pair is necessary for transformer decoder model.
+   - Sequential Dataloader: Each data point is a sequence of length n (ex. 30 here), We have proceeding 29 pairs inputs of $(s_i, a_i, r_i)$ with the target pair $(s_{30}, a_{30}, r_{30})$. Briefly speaking, we use the model to address the first 29 pairs of input and output the predicted pair $(\hat{s}_{30}, \hat{a}_{30}, \hat{r}_{30})$ and minimize the distance between target and prediced pair.
+
+
+5. **Sparse Action Addressing:**
+   ![Frame Re-weighting](frame_weights.png)
+Depending on our dataset, the number of action frames compared to the number of total frames is only $2.1%$. We should prepare the dataset so that the model can learn the sequential reasoning from the dataset having more action frames. The reweighting process is introduced that the actual **action frames** has more weights to be chosen than the **non-action frames**. Also, the adjacent frames besides the action frames would also have large weights to be chosen in the decaying way.
 
 
 ## Model Structure Discussion
