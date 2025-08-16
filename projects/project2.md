@@ -20,7 +20,6 @@ Since we have no access to the internal control for Clash Royale so that no dire
   
    
    - 1.2 Prepare troops segments 🤖 for generative arena images which is the training dataset for visual detection model YOLOv8:
-      ![Troop Segment](image_slice.png)
       ![Generative Arena View](generative_arena.png)
      
   
