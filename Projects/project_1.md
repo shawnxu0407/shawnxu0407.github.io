@@ -16,8 +16,8 @@ permalink: /projects/
    - Applied resizing, normalization, and augmentation (flips, crops) to improve generalization.  
 
 2. **Model Architecture**  
-   - **ResNet** backbone for robust visual feature extraction.  
-   - **Transformer decoder** to generate natural-language text sequences.  
+   - **ResNet Encoder** for robust visual feature extraction.  
+   - **Transformer Decoder** to generate natural-language text sequences.  
    - Fine-tuned with LoRa being high efficient training.
 
 3. **Training**  
