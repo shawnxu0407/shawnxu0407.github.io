@@ -59,7 +59,7 @@ You can explore full training logs, metrics, and visualizations on WandB:
 ## 📦 Installation & Setup
 
 # Link
-👉 [View](https://github.com/shawnxu0407/Image_to_Text)
+👉 [View the Github Project](https://github.com/shawnxu0407/Image_to_Text)
 
 # Clone the repository
 git clone https://github.com/shawnxu0407/Image_to_Text.git
