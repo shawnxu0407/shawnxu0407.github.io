@@ -19,7 +19,11 @@ Since we have no access to the internal control for Clash Royale so that no dire
    - 1.1 Use [Scrcpy](https://github.com/Genymobile/scrcpy) and **FFmpeg** to access the Android phone screen and extract the game episode frames (later add the link for the dataset collection). Notice we have to use the Expert datasets.
   
    
-   - 1.2 Prepare troops segments 🤖 for generative arena images which is the training dataset for visual detection model YOLOv8.
+   - 1.2 Prepare troops segments 🤖 for generative arena images which is the training dataset for visual detection model YOLOv8:
+      ![Troop Segment](image_slice.png)
+      ![Generative Arena View](generative_arena.png)
+     
+  
 
 2. **Visual Detection/ Data Processing**
    - 2.1 State builder (torch_state_builder.py): Use trained YOLOv8 for arena information extraction to build state **s**, use resnet classification to extract infomation for deploy cards and elixir, use cnocr to extract actual time.
