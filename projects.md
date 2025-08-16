@@ -40,7 +40,6 @@ Here’s a quick look at the interface in action:
 
 ## 📦 Installation & Setup
 
-```bash
 # Clone the repository
 git clone https://github.com/shawnxu0407/Image_to_Text.git
 cd your_working_dir
