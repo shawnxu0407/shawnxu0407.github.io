@@ -6,10 +6,23 @@ permalink: /projects/
 
 # My Projects 🚀
 
-# 🧠 ResNetTransformer-Gradio UI
-
-This is my Learning Process including data collection, data argumentation, Model Fine-tune integrating with lighning and W&B for experiment design, local deployment and now I am working on cloud deployment using AWS ECR and lambda.
+# 🧠 ResNet-Transformer Gradio UI
+    A deep learning framework for recognition the hand written image.
 ---
+
+## 🔬 Modeling Process
+
+1. **Data Preprocessing**  
+   - Applied resizing, normalization, and augmentation (flips, crops) to improve generalization.  
+
+2. **Model Architecture**  
+   - **ResNet** backbone for robust visual feature extraction.  
+   - **Transformer decoder** to generate natural-language text sequences.  
+   - Fine-tuned with LoRa being high efficient training.
+
+3. **Training**  
+   - Implemented in PyTorch and Torch-Lightning.  
+   - Monitored metrics (loss curves) with **Weights & Biases**.  
 
 
 ## 📊 Training Visualization
