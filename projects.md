@@ -13,7 +13,7 @@ Here are some of the things I’ve worked on:
   
   - Fine Tunned a resnet-transformer encoder-decoder model for hand written image to text task
 
-- <i class="fas fa-microchip"></i> [Project 2: Clash-Royale end-to-end AI agent 🎮🤖](/projects/project2.html)
+- <i class="fas fa-microchip"></i> [Project 2: Clash-Royale end-to-end AI agent 🎮🤖](/projects/project2.md)
 
 
   - An exciting project regarding Clash Royale AI agent! (Visual-Fusion to policy training!)
