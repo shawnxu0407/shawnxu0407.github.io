@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /Projects/project1/
+title: Project 1: Image-to-Text
+permalink: /projects/project1/
 ---
 
 # My Projects 🚀
