@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project 1: Image-to-Text"
-permalink: /projects/project1/
+permalink: /projects/project1.html
 ---
 
 
