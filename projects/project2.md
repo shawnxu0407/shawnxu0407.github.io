@@ -34,7 +34,7 @@ Since we have no access to the internal control for Clash Royale so that no dire
    - 2.4 Every frame would have the corresponding state (s), action (a) and reward (r)
 
 3. **Policy Network Construction**
-   -3.1 ![Policy Network Preview](policy_model_en.png)
+ ![Policy Network Preview](policy_model_en.png)
 
 
 ## Training Dataset Construction
