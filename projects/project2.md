@@ -37,8 +37,23 @@ Since we have no access to the internal control for Clash Royale so that no dire
  ![Policy Network Preview](policy_model_en.png)
 
 
+5. **AWS Sagemaker Training**
+
+
 ## Training Dataset Construction
 
+1. The keys of **state (s)** is [arena, cards, elixir] where those are all the useful visual information from the images to form the states. We call the trained YOLO model to give inference on   arena detection results including original image information and the detected troops with keys [position, class, belongings]. We call the trained Resnet model to detect the cards table as only 4 cards showing up in the cards table throught the total 8 cards. We use cnocr to detect the text for the number of elixir remaining for the current frame.
+
+
+2. The keys of **action (a)** is [select, pos] which are the selected card and deployment positions in the current arena. We also divide the whole arena into 32x18 sub-blocks so that the deployment positions (x,y) are in [32,18].
+
+
+3. The key of **reward (r)** is just the scalar for rewards received for the curret frame. We use cnocr to detect the relative HP detection for each queen's and king's tower. If we deduct the opposite tower's HP, we have positive reward, otherwise, we have the negative rewards.
+
+4. Finally, the dataloading process will be introduced. Recall we have (s, a, r) pair for **each timestep t**, the sequential construction of pair is necessary for transformer decoder model.
+   - Sequential Dataloader: Each data point is a sequence of length n (ex. 30 here), We have proceeding 29 pairs inputs of (s_i, a_i, r_i) with the target pair (s_{30}, a_{30}, r_{30}). Briefly speaking, we use the model to address the first 29 pairs of input and output the predicted pair (\hat{s}_{30}, \hat{a}_{30}, \hat{r}_{30}) and minimize the distance between target and prediced pair.
+
+5.
 
 
 ## Model Structure Discussion
