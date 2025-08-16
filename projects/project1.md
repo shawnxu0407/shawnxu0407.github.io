@@ -1,15 +1,24 @@
 ---
 layout: page
-title: "Project 1: Image-to-Text"
+title: "Image-to-Text"
 permalink: /projects/project1.html
 ---
 
 
-# My Projects 🚀
-
 # 🧠 ResNet-Transformer Gradio UI
     A deep learning framework for recognition the hand written image.
+
+
+## ✨ UI Preview
+An interactive interface built with Gradio for the fine-tuned ResNetTransformer model. Designed for image translation tasks using a combination of convolutional and transformer-based features.
+
+Here’s a quick look at the interface in action:
+
+![Gradio UI Demo](UI_demo.gif)
+
 ---
+
+
 
 ## 🔬 Modeling Process
 
@@ -35,15 +44,6 @@ permalink: /projects/project1.html
 You can explore full training logs, metrics, and visualizations on WandB:
 
 👉 [View on Weights & Biases](https://wandb.ai/xiangyexu-university-of-waterloo/image_to_text?nw=nwuserxiangyexu)
-
----
-
-## ✨ UI Preview
-An interactive interface built with Gradio for the fine-tuned ResNetTransformer model. Designed for image translation tasks using a combination of convolutional and transformer-based features.
-
-Here’s a quick look at the interface in action:
-
-![Gradio UI Demo](UI_demo.gif)
 
 ---
 
