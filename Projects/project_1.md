@@ -22,7 +22,11 @@ permalink: /projects/
 
 3. **Training**  
    - Implemented in PyTorch and Torch-Lightning.  
-   - Monitored metrics (loss curves) with **Weights & Biases**.  
+   - Monitored metrics (loss curves) with **Weights & Biases**.
+  
+4. **Deployment**  
+   - Local deployment with **Docker** 📦 for environment test.
+   - Use AWS ECR for cloud deployment & inference.
 
 
 ## 📊 Training Visualization
