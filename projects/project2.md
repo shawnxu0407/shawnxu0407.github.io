@@ -20,11 +20,12 @@ Since we have no access to the internal control for Clash Royale so that no dire
   
    
    - 1.2 Prepare troops segments 🤖 for generative arena images which is the training dataset for visual detection model YOLOv8:
-      ![Generative Arena View](generative_arena.png)
+  
+   ![Generative Arena View](generative_arena.png)
      
   
 
-2. **Visual Detection/ Data Processing**
+3. **Visual Detection/ Data Processing**
    - 2.1 State builder (torch_state_builder.py): Use trained YOLOv8 for arena information extraction to build state **s**, use resnet classification to extract infomation for deploy cards and elixir, use cnocr to extract actual time.
   
    
@@ -36,11 +37,13 @@ Since we have no access to the internal control for Clash Royale so that no dire
    
    - 2.4 Every frame would have the corresponding state (s), action (a) and reward (r)
 
-3. **Policy Network Construction**
+4. **Policy Network Construction**
+
+   
  ![Policy Network Preview](policy_model_en.png)
 
 
-5. **AWS Sagemaker Training**
+6. **AWS Sagemaker Training**
 
 
 ## Training Dataset Construction
@@ -60,7 +63,11 @@ Since we have no access to the internal control for Clash Royale so that no dire
 
 
 5. **Sparse Action Addressing:**
+
+   
    ![Frame Re-weighting](frame_weights.png)
+
+   
    Depending on our dataset, the number of action frames compared to the number of total frames is only $2.1%$. We should prepare the dataset so that the model can learn the sequential reasoning from the dataset having more action frames. The reweighting process is introduced that the actual **action frames** has more weights to be chosen than the **non-action frames**. Also, the adjacent frames besides the action frames would also have large weights to be chosen in the decaying way.
 
 
