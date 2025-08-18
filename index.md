@@ -14,6 +14,10 @@ title: "Hi there! 👋 Welcome to Xiangye's Website"
 
 - I am currently a master student in **Applied Mathematics** of **University of Waterloo** but I will be graduating in Nov. 2025! I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
 
+![This is a picture of Dooooog!](mydog.jpg)
+
+*This is a picture of My Dooooooooooog!*
+
 ## 💼 Work
 - Machine learning intern in research team in *Environment and Climate Change Canada* in 2024 developing/testing encoder-decoder model for weather modeling.
 - Data scientist intern in health intelligence team in *Region of Peel* in 2025 validating model in public health.
