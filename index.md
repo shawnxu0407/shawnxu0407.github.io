@@ -12,9 +12,9 @@ title: "My Website"
 ---
 
 ## 👤 About me
-Hey, I am Xiangye or you can call me Shawn!
+-- Hey, I am Xiangye or you can call me Shawn!
 
-I am currently a master student in **Applied Mathematics** of **University of Waterloo** but I will be graduating in Nov. 2025! I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
+-- I am currently a master student in **Applied Mathematics** of **University of Waterloo** but I will be graduating in Nov. 2025! I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
 
 ## 💼 Work
 - Machine learning intern in research team in Environment and Climate Change Canada in 2024 developing/testing encoder-decoder model for weather modeling.
