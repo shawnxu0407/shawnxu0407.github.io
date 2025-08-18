@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "My Website"
 ---
 
 # Hi there! 👋 Welcome to Xiangye's Website
