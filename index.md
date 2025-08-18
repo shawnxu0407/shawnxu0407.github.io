@@ -12,17 +12,17 @@ title: "My Website"
 ---
 
 ## 👤 About me
--- Hey, I am Xiangye or you can call me Shawn!
+- Hey, I am Xiangye or you can call me Shawn!
 
--- I am currently a master student in **Applied Mathematics** of **University of Waterloo** but I will be graduating in Nov. 2025! I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
+- I am currently a master student in **Applied Mathematics** of **University of Waterloo** but I will be graduating in Nov. 2025! I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
 
 ## 💼 Work
-- Machine learning intern in research team in Environment and Climate Change Canada in 2024 developing/testing encoder-decoder model for weather modeling.
-- Data scientist intern in health intelligence team in Region of Peel in 2025 validating model in public health.
-- Machine learning intern in Institut Pasteur in 2023 for pattern detection for medical image.
+- Machine learning intern in research team in *Environment and Climate Change Canada* in 2024 developing/testing encoder-decoder model for weather modeling.
+- Data scientist intern in health intelligence team in *Region of Peel* in 2025 validating model in public health.
+- Machine learning intern in *Institut Pasteur* in 2023 for pattern detection for medical image.
 
 
-## Sports & Interest
+## ⚽ Sports & Interest
 - I really like soccer and I keep playing soccer over 15 years while less frequent now.
 - I play table tennis but not really good
 - I like video games like Elden Rings, FIFA and Crusader Kings III.
