@@ -1,9 +1,7 @@
 ---
 layout: page
-title: "OOOOOOOOH"
+title: "Hi there! 👋 Welcome to Xiangye's Website"
 ---
-
-# Hi there! 👋 Welcome to Xiangye's Website
 
 ![This is a picture of My girlfriend and Me!](pic.jpg)
 
