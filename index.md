@@ -17,7 +17,7 @@ title: "Hi there! 👋 Welcome to Xiangye's Website"
 
 ---
 
-## 🚀 My Projects
+### 🚀 My Projects
 Here are some of the things I’ve worked on:
 
 - <i class="fas fa-microchip"></i> [**Project 1: Image-to-Text**](/projects/project1.md)  
@@ -31,14 +31,14 @@ Here are some of the things I’ve worked on:
 
 ---
 
-## 💼 Work
+### 💼 Work
 - Machine learning intern in research team in *Environment and Climate Change Canada* in 2024 developing/testing encoder-decoder model for weather modeling.
 - Data scientist intern in health intelligence team in *Region of Peel* in 2025 validating model in public health.
 - Machine learning intern in *Institut Pasteur* in 2023 for pattern detection for medical image.
 
 ---
 
-## ⚽ Sports & Interest
+### ⚽ Sports & Interest
 - I really like soccer and I keep playing soccer over 15 years while less frequent now.
 - I play table tennis but not really good
 - I like video games like Elden Rings, FIFA and Crusader Kings III.
