@@ -3,7 +3,7 @@ layout: page
 title: "Hi there! 👋 Welcome to Xiangye's Website"
 ---
 
-![This is a picture of My girlfriend and Me!](pic.jpg)
+<img src="pic.jpg" alt="This is a picture of My girlfriend and Me!" width="300">
 
 *This is a picture of My girlfriend and Me!*
 
