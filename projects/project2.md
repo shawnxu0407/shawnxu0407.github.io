@@ -6,6 +6,9 @@ permalink: /projects/project2.html
 
 ## AI Agent Visualization 🎮🤖
 
+<img src="output.gif" alt="AI Agent demo" width="500" style="border-radius: 10px;">
+
+
 ## 🔬 Brief Project Flow 📝
 
 - Since we have no access to the internal control for Clash Royale, so that no direct information to extract state, action, and reward for traditional online training in Reinforcement Learning. We have to build the visual detection block to extract the necessary information for training data. 
