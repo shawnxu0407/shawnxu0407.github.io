@@ -4,11 +4,11 @@ title: "Clash-Royale AI agent ⚔️"
 permalink: /projects/project2.html
 ---
 
-## AI Agent Visualization 🎮🤖
+## Online Agent Visualization 🎮🤖
 
 <img src="output.gif" alt="AI Agent demo" width="1000" style="border-radius: 10px;">
 
-
+- This is fully controlled by the policy network that I use scrcpy to let the mouse to control the android phone to select the card and place on the arena. (Make sure to turn on the debug mode of android phone).
 ## 🔬 Brief Project Flow 📝
 
 - Since we have no access to the internal control for Clash Royale, so that no direct information to extract state, action, and reward for traditional online training in Reinforcement Learning. We have to build the visual detection block to extract the necessary information for training data. 
@@ -36,6 +36,8 @@ permalink: /projects/project2.html
  ![Policy Network Preview](policy_model_en.png)
 
 6. **AWS Sagemaker Training ☁️**
+   - I used AWS sagemaker to train, first to make sure the combination of different models work well on the local environment using train.py script, then put the data into the AWS S3 bucket for later data loading. The core is to create a train_sagemaker.py to wrap the original training script.
+   - Basically, AWS sagemaker would use a Linux env to create a docker image which are defined in the requirements.txt. It also uploads all the related script in the root folder. Then if the local test works well, the clould training should be working as well. :)
 
 ## Training Dataset Construction 🗂️
 
@@ -87,6 +89,23 @@ The actual action frames get higher weights 🏋️‍♂️, and neighboring fr
   
    - The cause attention works like this: when we work on the global embedding at time step $t=9$, we compute the similarties score of $x^9_g$ among all the previous embeddings. We do not compute the future similarities as we try to let the model make decision on the previous steps without knowing any future information. (otherwise it is cheating!)
 
+## Future Work and Summary
+- My model performance is actually really bad. My guess is that I did not collect enough games/episodes for the training.
+
+
+- Each episode contains around 900 frames, and not all the frames will be into the dataset depending on the selected weights.
+
+
+- If you would like to reproduce the model for your own card selection, you have to re-train the policy network from scratch as the card information will be different, I have not fine tunned yet.
+
+
+- As you can notice that this model only validate for a specific card set, it is not valid for the all the cards. Maybe training a policy network for all the card would be interesting but the dataset size it require will be very very expensive.
+
+
+- Treat training dataset is a way to represent the knowledge domain where this domain is somehow crazily high dimensional. Given this, we have to provide the data to the model that what card I select and the position I place this card for all possible siuations. The dataset will be intense so that it make the knowledge domain being smooth enough for model learning. (Emmm this is just my personal/shadow thinking).
+
+
+- This is offline learning, I can not access the live interaction with the game internal so the tradional RL can not be applied. If the game interanl can be accessed, then we do not need any visual detection to extract information and RL algorithm and improve the model though interacting within games.
 
 
 ## References 📚
