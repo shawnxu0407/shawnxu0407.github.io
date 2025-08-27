@@ -6,7 +6,7 @@ permalink: /projects/project2.html
 
 ## AI Agent Visualization 🎮🤖
 
-<img src="output.gif" alt="AI Agent demo" width="500" style="border-radius: 10px;">
+<img src="output.gif" alt="AI Agent demo" width="1000" style="border-radius: 10px;">
 
 
 ## 🔬 Brief Project Flow 📝
