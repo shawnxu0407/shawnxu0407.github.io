@@ -54,6 +54,7 @@ A deep dive into how we built a self-escalating PDF extraction pipeline using:
 *Coming soon...*
 
 ### 💼 Work
+- Full Stack Data Scientist/AI Engineer (full time) starting from 2026, Feb at Tempered AI.  
 - Machine learning intern in research team in *Environment and Climate Change Canada* in 2024 developing/testing encoder-decoder model for weather modeling.
 - Data scientist intern in health intelligence team in *Region of Peel* in 2025 validating model in public health.
 - Machine learning intern in *Institut Pasteur* in 2023 for pattern detection for medical image.
