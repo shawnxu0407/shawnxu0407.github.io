@@ -14,7 +14,8 @@ title: "Hi there! 👋 Welcome to Xiangye's Website"
 
 - I graduated in 2025, Nov with a master degree in **Applied Mathematics** of **University of Waterloo**. I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
 
-- <a href="Shawn_Resume.pdf" target="_blank">📄 View My Resume</a>
+- <a href="Shawn_Resume.pdf" target="_blank">📄 View My Resume in English</a>
+- <a href="Shawn_中文DS简历.pdf" target="_blank">📄 View My Resume in Chinese</a>
 
 
 ---
@@ -38,7 +39,7 @@ Here are some of the things I’ve worked on:
 
 My first technical blog shares how we implemented Databricks Lakehouse Monitoring for production ML systems, including inference logging, drift detection, SQL alerts, retraining workflows, and practical lessons learned from client-facing demos.
 
-🔗 [Read on Medium]([https://medium.com/your-blog-link](https://medium.com/@wudixiaozuishou/behind-the-scenes-implementing-lakehouse-monitoring-in-production-8f8a3d4c4daa))
+🔗 [Read on Medium]([[https://medium.com/your-blog-link](https://medium.com/@wudixiaozuishou/behind-the-scenes-implementing-lakehouse-monitoring-in-production-8f8a3d4c4daa)])
 
 ---
 
