@@ -12,7 +12,7 @@ title: "Hi there! 👋 Welcome to Xiangye's Website"
 ## 👤 About me
 - Hey, I am Xiangye or you can call me Shawn!
 
-- I am currently a master student in **Applied Mathematics** of **University of Waterloo** but I will be graduating in Nov. 2025! I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
+- I graduated in 2025, Nov with a master degree in **Applied Mathematics** of **University of Waterloo**. I had my undergraduate in **Applied mathematics & Statistics** from 2019-2023.
 
 - <a href="Shawn_Resume.pdf" target="_blank">📄 View My Resume</a>
 
