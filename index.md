@@ -32,6 +32,26 @@ Here are some of the things I’ve worked on:
   - Applied *sensitive weights-based quantization* for Large Language Models  
 
 ---
+## ✍️ Technical Blogs
+
+### 📝 Behind the Scenes: Implementing Lakehouse Monitoring in Production
+
+My first technical blog shares how we implemented Databricks Lakehouse Monitoring for production ML systems, including inference logging, drift detection, SQL alerts, retraining workflows, and practical lessons learned from client-facing demos.
+
+🔗 [Read on Medium](https://medium.com/your-blog-link)
+
+---
+
+### 📝 Evidence-Aware Model Routing for Document Extraction (Coming Soon)
+
+A deep dive into how we built a self-escalating PDF extraction pipeline using:
+
+- Coverage-based validation
+- Evidence-aware hallucination detection
+- Cost-aware model routing
+- Azure Databricks
+
+*Coming soon...*
 
 ### 💼 Work
 - Machine learning intern in research team in *Environment and Climate Change Canada* in 2024 developing/testing encoder-decoder model for weather modeling.
