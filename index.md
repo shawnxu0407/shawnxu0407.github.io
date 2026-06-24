@@ -38,7 +38,7 @@ Here are some of the things I’ve worked on:
 
 My first technical blog shares how we implemented Databricks Lakehouse Monitoring for production ML systems, including inference logging, drift detection, SQL alerts, retraining workflows, and practical lessons learned from client-facing demos.
 
-🔗 [Read on Medium](https://medium.com/your-blog-link)
+🔗 [Read on Medium]([https://medium.com/your-blog-link](https://medium.com/@wudixiaozuishou/behind-the-scenes-implementing-lakehouse-monitoring-in-production-8f8a3d4c4daa))
 
 ---
 
